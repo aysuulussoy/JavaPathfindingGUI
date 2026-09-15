@@ -60,7 +60,7 @@ public class MainGUI extends Application {
                     "Mersin", "Urfa", "Samsun", "Denizli",
                     "Trabzon", "Izmir", "Batman", "Ankara"
             };
-            CSVReader reader = new CSVReader("src/resources/Turkish_cities.csv");
+            CSVReader reader = new CSVReader("Resources/Turkish_cities.csv");
             String[] cityArray = reader.getCities();
             int[][] distances = reader.getDistances();
             StringBuilder result = new StringBuilder();
