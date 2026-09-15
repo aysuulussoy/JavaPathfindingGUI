@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Mesafe matrisi ve şehir isimlerini okuyun
-        String filePath = "src/resources/Turkish_cities.csv";
+        String filePath = "Resources/Turkish_cities.csv";
         CSVReader reader = new CSVReader(filePath);
 
         String[] cities = reader.getCities();
