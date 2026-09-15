@@ -1,21 +1,24 @@
 # JavaPathfindingGUI
 
-This is a Java-based project that implements pathfinding algorithms using a graphical user interface. It includes both Depth-First Search (DFS) and Breadth-First Search (BFS), allowing users to visualize how these algorithms work step by step.
+A Java-based application that applies Breadth-First Search (BFS) and Depth-First Search (DFS) to city-distance data loaded from a CSV file.
+
+The project uses custom stack and queue implementations and provides a JavaFX graphical interface for selecting city pairs and displaying traversal results.
 
 ### Features
 
-- DFS and BFS pathfinding algorithms  
-- Graphical interface using Java Swing  
-- Custom implementation of Stack and Queue data structures  
-- Reads grid/map data from a CSV file  
-- Basic result display and step-by-step traversal
+- BFS and DFS traversal algorithms
+- Custom Stack and Queue data structures
+- CSV-based city and distance data
+- JavaFX graphical user interface
+- Displays path, total distance, and execution time for selected city pairs
 
 ### Technologies Used
 
-- Java  
-- Java Swing  
-- Object-Oriented Programming  
-- File handling and custom data structures
+- Java
+- JavaFX
+- Object-Oriented Programming
+- Data Structures and Algorithms
+- CSV file handling
 
 ### Notes
 
